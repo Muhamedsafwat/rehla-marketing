@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "works": "Works",
+    "languageSwitcher": "Switch Language",
+    "switch_language": "Switch to",
+    "home": "Home",
+    "title": "Rehla"
+  },
+  "Video": {
+    "paraOne": "An independent, award-winning advertising agency",
+    "paraTwo": "Driven by innovation & culture",
+    "paraThree": "Navigating the New Normal in Digital."
+  },
+  "ServedPlaces": {
+    "servingEverywhere": "Serving everywhere from:",
+    "cities": {
+      "cairo": "Cairo",
+      "dubai": "Dubai",
+      "riyadh": "Riyadh"
+    },
+    "FooterHeaderOne": "We bring cultural resonance to brands in the region",
+    "FooterHeaderTwo": "driving growth and delivering measurable",
+    "Span": "impact"
+  },
+  "Work": {
+    "Featured": "Featured Cases"
+  },
+  "Footer": {
+    "localTalents": "Local talents, regional presence.",
+    "teamsMena": "Our teams across MENA connect cultural insight with creative impact.",
+    "Follow": "Follow Us"
+  },
+  "Services": {
+    "Service": "Services"
+  },
+  "Contact": {
+    "title": "Lets Talk",
+    "description": "Let's talk. We’re here to analyze data, unlock insights, build strategies, craft creative, manage media, and produce content that drives impact. Whether you’re looking to start a new project, connect with our team, or learn more about what we do, we’re just a message away.",
+    "form": {
+      "subject": "Subject",
+      "title": "Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "company": "Company",
+      "phoneNumber": "Phone Number"
+    },
+    "Buttons": [{ "name": "New Business" }, { "name": "Press & Events" }, { "name": "Other" }],
+    "markets": {
+      "saudiArabia": "Saudi Arabia",
+      "uae": "UAE",
+      "egypt": "Egypt",
+      "qatar": "Qatar",
+      "iraq": "Iraq",
+      "morocco": "Morocco",
+      "kuwait": "Kuwait",
+      "oman": "Oman",
+      "bahrain": "Bahrain",
+      "yemen": "Yemen",
+      "jordan": "Jordan",
+      "lebanon": "Lebanon",
+      "crossRegional": "Cross Regional",
+      "others": "Others"
+    },
+    "selectMarket": "Select Market*",
+    "yourMessage": "Your Message*",
+    "submit": "Submit"
+  },
+  "About": {
+    "who": "Who we are",
+    "para": "We are an independent, award-winning advertising agency driven by innovation and culture.",
+    "SwapOne": "We know communication",
+    "SwapTwo": "We have grown digital",
+    "SwapThree": "We talk social",
+    "paraTwo": "AND we create work that resonates and drives growth",
+    "paraThree": "Rehla Marketing brings cultural resonance for brands in the region through consumer insights, creative, social, paid media, production and studio. We ensure each service delivers impact, whether used individually or integrated together.",
+    "what": "What we do",
+    "titleDna": "How we do it",
+    "span": "OUR DNA",
+    "paraFour": "Our teams in Riyadh, Dubai, and Cairo collaborate seamlessly sometimes sitting together physically, sometimes virtually, but always connected. With a diverse group of smart, creative minds, we work side by side (or screen by screen, it’s all the same in today’s digital age) to bring ideas to life.",
+    "Entertainment": "Entertainment Category",
+    "spantwo": "“Independent Agency Of the Year”",
+    "three": "Dubai Lynx / Grand Prix",
+    "four": "Since 2011",
+    "five": "In the MENA region"
+  },
+  "Works": {
+    "works": "Works",
+    "Locations": "Locations",
+    "Services": "Services",
+    "locations": [
+      { "name": "ALL" },
+      { "name": "Egypt" },
+      { "name": "KSA" },
+      { "name": "Regional" }
+    ],
+    "services": [
+      { "name": "ALL" },
+      { "name": "Programming" },
+      { "name": "Case Studyies" },
+      { "name": "Adds" },
+      { "name": "Designs" }
+    ]
+  },
+
+  "WorkDetails": {
+    "client": "Client",
+    "title": "Title",
+    "service": "Service",
+    "location": "Location"
+  }
+}
