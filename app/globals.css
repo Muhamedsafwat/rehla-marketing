@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0d0d0f; /* Refined Deep Charcoal */
+  --foreground: #ffffff; /* Stark White for Headings */
+  
+  /* Brand Semantic Colors - Minimalism Core */
+  --color-primary: #920b0b; /* Bold Red */
+  --color-primary-foreground: #ffffff;
+  
+  --color-secondary: #1a1a1c; /* Zinc Gray */
+  --color-secondary-foreground: #e4e4e7; /* Light Gray subtext */
+  
+  --color-accent: #3f3f46; /* Medium Gray border */
+  --color-accent-foreground: #ffffff;
+  
+  --color-muted: #18181b; /* Muted Gray */
+  --color-muted-foreground: #a1a1aa; /* Zinc Gray text */
+
+  /* Font Families */
+  --font-sans: var(--font-plus-jakarta-sans), "Inter", ui-sans-serif, system-ui;
+  --font-arabic: var(--font-almarai), "Inter", ui-sans-serif, system-ui;
+}
+
+@keyframes wave1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(10%, 10%) scale(1.2); }
+}
+@keyframes wave2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-8%, 12%) scale(1.1); }
+}
+@keyframes wave3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(6%, -10%) scale(1.15); }
+}
+
+.animate-wave1 { animation: wave1 25s ease-in-out infinite; }
+.animate-wave2 { animation: wave2 30s ease-in-out infinite; }
+.animate-wave3 { animation: wave3 35s ease-in-out infinite; }
+
+@keyframes reh-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes reh-flicker {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.95; }
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem; 
+  margin-inline: auto;
+  padding-inline: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 2rem; 
+  }
+}
+
+.rehla-title-shimmer {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.92), rgba(146,11,11,0.95), rgba(255,255,255,0.92));
+  background-size: 220% 220%;
+  animation: reh-shimmer 6s ease-in-out infinite;
+}
+
+.rehla-title-noise {
+  animation: reh-flicker 2.4s ease-in-out infinite;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #0d0d0f; 
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+button {
+  cursor: pointer;
+}
+
+@keyframes sweep-right {
+  0% { right: 100%; opacity: 0; }
+  50% { opacity: 1; }
+  100% { right: -100%; opacity: 0; }
+}
+@keyframes sweep-left {
+  0% { left: 100%; opacity: 0; }
+  50% { opacity: 1; }
+  100% { left: -100%; opacity: 0; }
+}
+.animate-sweep-right {
+  animation: sweep-right 3s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+.animate-sweep-left {
+  animation: sweep-left 3s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}

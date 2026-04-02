@@ -1,0 +1,174 @@
+{
+  "Metadata": {
+    "title": "REHLA | Brands Are Built. Performance Is Engineered.",
+    "description": "At Rehla Marketing, we combine strategic thinking with precise execution — building brands that connect, and marketing systems that deliver.",
+    "keywords": "marketing agency, brand identity, performance marketing, marketing strategy, brand building, Rehla Marketing"
+  },
+  "HomePage": {
+    "Hero": {
+      "headline": "Brands Are Built.\nPerformance Is Engineered.",
+      "subheadline": "At Rehla Marketing, we combine strategic thinking with precise execution — building brands that connect, and marketing systems that deliver.",
+      "badge": "Boutique / Performance / Strategy",
+      "cta": "Start Your Journey",
+      "ctaAlt": "Book a Consultation",
+      "proof": {
+        "fast": "Fast execution",
+        "direction": "Clear direction",
+        "growth": "Measured growth",
+        "system": "System-first"
+      },
+      "stage": {
+        "kicker": "Rehla / Marketing",
+        "title": "Signal over noise.",
+        "body": "A brand system that looks premium and performs under pressure.",
+        "orbit": {
+          "spark": "Creative",
+          "bolt": "Speed",
+          "chart": "Performance",
+          "shield": "Trust"
+        }
+      }
+    },
+    "Positioning": {
+      "headline": "Marketing isn't about mass volume.\nIt's about high precision.",
+      "badge": "Positioning / Methodology",
+      "segments": {
+        "struggle": {
+          "title": "The Direction Deficit",
+          "body": "Most businesses don’t suffer from lack of effort. They suffer from lack of direction — driving fast but without a map."
+        },
+        "chaos": {
+          "title": "Disconnected Output",
+          "body": "Inconsistent messaging. Disconnected campaigns. Ads running without a cohesive strategy to capture value."
+        },
+        "solution": {
+          "title": "Unified Systems",
+          "body": "We bring structure and purpose — aligning your brand identity and performance marketing into one engine."
+        }
+      },
+      "stack": [
+        { "title": "Strategic Narrative", "desc": "One story, told everywhere." },
+        { "title": "Engineered Systems", "desc": "Brand + Ads in one machine." },
+        { "title": "Zero Vanity", "desc": "Focus on ROI, not mentions." }
+      ]
+    },
+    "Services": {
+      "headline": "Built on Strategy.\nDelivered Through Execution.",
+      "badge": "Capacity / Scale / Logic",
+      "bgKicker": "Execution Engine",
+      "refLabel": "REF /",
+      "layerLabel": "Service Layer",
+      "branding": {
+        "title": "Branding",
+        "desc": "We define how your brand looks, sounds, and positions itself — creating a clear identity that people recognize and trust.",
+        "yield": "High-Yield / Identity"
+      },
+      "content": {
+        "title": "Content & Social Media",
+        "desc": "Every piece of content serves a purpose. We build narratives that engage, and consistency that compounds over time.",
+        "yield": "High-Yield / Distribution"
+      },
+      "performance": {
+        "title": "Performance Marketing",
+        "desc": "We don’t run ads randomly. We design performance systems — built on targeting, tracking, and continuous optimization.",
+        "yield": "High-Yield / Growth"
+      },
+      "strategy": {
+        "title": "Strategy",
+        "desc": "Everything starts with clarity. We map the full journey — from first impression to conversion — ensuring every step works together.",
+        "yield": "High-Yield / System"
+      }
+    },
+    "Insights": {
+      "headline": "See The System.\nThen Scale It.",
+      "subheadline": "A premium look is table stakes. Real growth comes from clarity, tracking, and iteration — the engine behind every campaign.",
+      "panelKicker": "Performance snapshot",
+      "panelTitle": "Signal vs. Performance",
+      "legendSignal": "Signal",
+      "legendPerformance": "Performance",
+      "cards": [
+        {
+          "title": "Clarity first",
+          "body": "We define the narrative, the offer, and the funnel — before we spend."
+        },
+        {
+          "title": "Measure everything",
+          "body": "Tracking and iteration turn campaigns into a repeatable system."
+        },
+        {
+          "title": "Scale with control",
+          "body": "Optimization is not a phase. It’s the product."
+        }
+      ]
+    },
+    "Process": {
+      "headline": "A Structured Approach.\nNo Assumptions.",
+      "bgKicker": "The Assembly",
+      "metaLabel": "Phase Sequence",
+      "step1": {
+        "num": "01",
+        "title": "Understand",
+        "desc": "We analyze your business, market, and audience — before making any decisions."
+      },
+      "step2": {
+        "num": "02",
+        "title": "Define",
+        "desc": "We build a clear strategy that connects brand positioning with measurable outcomes."
+      },
+      "step3": {
+        "num": "03",
+        "title": "Execute",
+        "desc": "From content to campaigns, every element is crafted with intention."
+      },
+      "step4": {
+        "num": "04",
+        "title": "Optimize",
+        "desc": "We continuously refine based on performance, not guesswork."
+      }
+    },
+    "WhyUs": {
+      "headline": "A Different Kind of Agency.",
+      "badge": "Our Philosophy",
+      "dragText": "Drag to explore",
+      "cards": {
+        "point1": {
+          "title": "Alignment",
+          "desc": "We don’t separate brand from performance — we align both."
+        },
+        "point2": {
+          "title": "Systems",
+          "desc": "We focus on systems, not isolated tactics."
+        },
+        "point3": {
+          "title": "Clarity",
+          "desc": "We prioritize clarity over complexity."
+        },
+        "point4": {
+          "title": "Consistency",
+          "desc": "We value consistency over short-term spikes."
+        }
+      }
+    },
+    "Statement": {
+      "headline": "No Shortcuts. No Noise.",
+      "body": "We don’t chase trends for attention. We don’t rely on assumptions.\nEvery decision is intentional. Every action serves a purpose."
+    },
+    "FinalCTA": {
+      "headline": "Let's Build Something That Works.",
+      "body": "If you’re looking for a structured, strategic approach to growing your brand and performance — we’re ready when you are.",
+      "cta": "Get Started",
+      "ctaAlt": "Book a Call"
+    }
+  },
+  "LanguageSwitcher": {
+    "toggle": "Toggle Language",
+    "ar": "Arabic",
+    "en": "English"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us"
+  }
+}
