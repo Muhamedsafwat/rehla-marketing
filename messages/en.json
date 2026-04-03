@@ -4,6 +4,11 @@
     "description": "At Rehla Marketing, we combine strategic thinking with precise execution — building brands that connect, and marketing systems that deliver.",
     "keywords": "marketing agency, brand identity, performance marketing, marketing strategy, brand building, Rehla Marketing"
   },
+  "AboutMetadata": {
+    "title": "About Us | Rehla Marketing",
+    "description": "Learn about Rehla Marketing's philosophy. We build brands properly and focus on clarity, structuring, and aligning brand with performance.",
+    "keywords": "about rehla marketing, marketing philosophy, brand performance, strategic marketing, clear positioning"
+  },
   "HomePage": {
     "Hero": {
       "headline": "Brands Are Built.\nPerformance Is Engineered.",
@@ -158,6 +163,55 @@
       "body": "If you’re looking for a structured, strategic approach to growing your brand and performance — we’re ready when you are.",
       "cta": "Get Started",
       "ctaAlt": "Book a Call"
+    }
+  },
+  "AboutPage": {
+    "Hero": {
+      "headline": "We Don’t Just Market Brands.",
+      "subheadline": "We Build Them Properly."
+    },
+    "WhoWeAre": {
+      "title": "Who We Are",
+      "beliefLine1": "Rehla Marketing is built on a simple belief:",
+      "beliefLine2": "marketing only works when it’s intentional.",
+      "missionLine1": "We’re not here to add more noise.",
+      "missionLine2": "We’re here to bring clarity, structure, and direction to how brands grow."
+    },
+    "Philosophy": {
+      "preheading": "Our Philosophy",
+      "headline": "Clarity Over Complexity.",
+      "body": "We believe that most marketing problems aren’t about tools —\nthey’re about direction.",
+      "focusTitle": "That’s why we focus on:",
+      "focusPoints": {
+        "point1": "Clear positioning",
+        "point2": "Consistent communication",
+        "point3": "Structured execution"
+      },
+      "footer": "Because when those are aligned, results follow naturally."
+    },
+    "BrandPerformance": {
+      "preheading": "Brand × Performance",
+      "headline": "Where Brand Meets Performance.",
+      "body1": "We don’t separate how your brand looks from how it performs.",
+      "body2": "A strong brand builds trust.\nA strong performance system drives action.",
+      "body3": "We bring both together — ensuring your marketing doesn’t just look good, but works effectively."
+    },
+    "HowWeThink": {
+      "preheading": "How We Think",
+      "headline": "Built for Businesses That Think Long-Term.",
+      "points": {
+        "point1": "We don’t chase trends without purpose",
+        "point2": "We don’t rely on assumptions",
+        "point3": "We don’t optimize for vanity metrics"
+      },
+      "conclusion": "We focus on building systems that are sustainable, scalable, and aligned with real business goals."
+    },
+    "Closing": {
+      "badge": "Ready for Growth?",
+      "title": "Let’s Build It Right.",
+      "description": "If you’re looking for quick wins, we’re probably not the right fit.\nBut if you’re looking to build something structured, clear, and built to last — we’re ready.",
+      "primaryAction": "Start Your Journey",
+      "secondaryAction": "WhatsApp Us"
     }
   },
   "LanguageSwitcher": {

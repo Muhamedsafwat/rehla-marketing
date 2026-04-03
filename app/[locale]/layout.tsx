@@ -32,11 +32,11 @@ export const viewport: Viewport = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isRtl = locale === 'ar';
-  
+
   const siteName = isRtl ? "رحلة للتسويق | بناء الهوية الرقمية" : "Rehla Marketing | Digital Transformation Architects";
-  const siteDescription = isRtl 
-      ? "تساعد وكالة رحلة الشركات على بناء حضور رقمي قوي وإطلاق حملات تسويقية وتطوير أنظمة متكاملة تقود سوق الشرق الأوسط بامتياز."
-      : "Rehla Agency helps businesses cultivate a powerful digital presence, launch sophisticated marketing campaigns, and develop robust technical systems across the Middle East.";
+  const siteDescription = isRtl
+    ? "تساعد وكالة رحلة الشركات على بناء حضور رقمي قوي وإطلاق حملات تسويقية وتطوير أنظمة متكاملة تقود سوق الشرق الأوسط بامتياز."
+    : "Rehla Agency helps businesses cultivate a powerful digital presence, launch sophisticated marketing campaigns, and develop robust technical systems across the Middle East.";
 
   return {
     title: {
@@ -45,6 +45,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: siteDescription,
     metadataBase: new URL("https://rehlamarketing.com"),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        en: "/en",
+        ar: "/ar",
+        "x-default": "/en"
+      }
+    },
     openGraph: {
       type: "website",
       locale: isRtl ? "ar_SA" : "en_US",
