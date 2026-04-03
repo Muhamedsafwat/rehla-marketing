@@ -214,6 +214,56 @@
       "secondaryAction": "WhatsApp Us"
     }
   },
+  "ContactPage": {
+    "Metadata": {
+      "title": "Contact Us | Rehla Marketing",
+      "description": "Start the right conversation with Rehla Marketing. Whether you're building a brand or improving performance, we're here to help.",
+      "keywords": "contact rehla, marketing consultation, brand building contact, performance marketing inquiry"
+    },
+    "Hero": {
+      "headline": "Start the Right Conversation.",
+      "subheadline": "Whether you’re building a brand, improving performance, or looking for a more structured approach — we’re here to help."
+    },
+    "Form": {
+      "intro": "Tell us about your business, your goals, and where you are today.\nWe’ll take it from there.",
+      "support": "The more context you share, the better we can understand your needs — and propose the right approach.",
+      "fields": {
+        "name": "Full Name",
+        "name_ph": "e.g., John Doe",
+        "company": "Company Name",
+        "company_ph": "e.g., Rehla Inc.",
+        "email": "Email Address",
+        "email_ph": "name@company.com",
+        "phone": "Phone Number",
+        "phone_ph": "+966 -- --- ----",
+        "services": "Services Interested In",
+        "services_ph": "e.g., Brand Identity, UI/UX",
+        "details": "Project Details",
+        "details_ph": "Tell us about your goals...",
+        "submit": "Send Message"
+      }
+    },
+    "Alternative": {
+      "headline": "Prefer a Direct Approach?",
+      "options": {
+        "call": {
+          "title": "Book a Call",
+          "desc": "Schedule a strategy session."
+        },
+        "whatsapp": {
+          "title": "WhatsApp Us",
+          "desc": "Chat with our team directly."
+        }
+      }
+    },
+    "Closing": {
+      "badge": "Ready To Start",
+      "title": "Ready to Build Something Strategic?",
+      "description": "Clarity is the first step toward sustainable success. We're here to turn your vision into a high-performance system.",
+      "primary": "Schedule a Session",
+      "secondary": "WhatsApp Chat"
+    }
+  },
   "LanguageSwitcher": {
     "toggle": "Toggle Language",
     "ar": "Arabic",

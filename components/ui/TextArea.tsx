@@ -1,19 +1,17 @@
 "use client";
 
-import { forwardRef, InputHTMLAttributes, useState, ReactNode, memo } from "react";
+import { forwardRef, TextareaHTMLAttributes, useState, ReactNode, memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface TextAreaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
   label?: string;
   error?: string;
-  leftIcon?: ReactNode;
-  rightIcon?: ReactNode;
   variant?: 'outline' | 'glass' | 'minimal';
 }
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
-  ({ className, type = "text", label, error, leftIcon, rightIcon, variant = 'glass', ...props }, ref) => {
+const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(
+  ({ className, label, error, variant = 'glass', ...props }, ref) => {
     const [isFocused, setIsFocused] = useState(false);
 
     const isMinimal = variant === 'minimal';
@@ -44,6 +42,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           isFocused && !isMinimal && "border-white/10 ring-1 ring-white/5"
         )}>
           
+          {/* Progress Indictor for Minimal Variant */}
           {isMinimal && (
              <motion.div 
                 initial={false}
@@ -76,32 +75,17 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
              </>
           )}
 
-          {leftIcon && (
-            <div className="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-zinc-600 group-focus-within:text-primary transition-all duration-700">
-              {leftIcon}
-            </div>
-          )}
-
-          <input
-            type={type}
+          <textarea
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
             className={cn(
-              "relative z-10 flex h-14 w-full bg-transparent text-base font-bold text-white transition-all appearance-none outline-none ring-0 placeholder:text-white/20 placeholder:font-medium disabled:cursor-not-allowed disabled:opacity-30",
-              isMinimal ? "px-0 py-4" : "px-8 py-5",
-              leftIcon ? (isMinimal ? "pl-10" : "pl-16") : (isMinimal ? "pl-0" : "pl-8"),
-              rightIcon ? "pr-14" : (isMinimal ? "pr-0" : "pr-8"),
+              "relative z-10 flex min-h-[140px] w-full bg-transparent text-base font-bold text-white transition-all appearance-none outline-none ring-0 placeholder:text-white/20 placeholder:font-medium disabled:cursor-not-allowed disabled:opacity-30 resize-none",
+              isMinimal ? "px-0 py-4" : "px-8 py-6",
               className
             )}
             ref={ref}
             {...props}
           />
-
-          {rightIcon && (
-            <div className="absolute right-6 top-1/2 -translate-y-1/2 z-20 text-zinc-600 group-focus-within:text-white transition-all duration-700">
-              {rightIcon}
-            </div>
-          )}
         </div>
         
         <AnimatePresence>
@@ -121,7 +105,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
   }
 );
 
-Input.displayName = "Input";
+TextArea.displayName = "TextArea";
 
-const MemoizedInput = memo(Input);
-export { MemoizedInput as Input };
+const MemoizedTextArea = memo(TextArea);
+export { MemoizedTextArea as TextArea };
