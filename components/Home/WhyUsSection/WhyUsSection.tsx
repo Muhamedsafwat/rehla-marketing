@@ -139,7 +139,7 @@ export const WhyUsSection = () => {
                         {t(`cards.${card.id}.title`)}
                       </h3>
 
-                      <p className="text-base md:text-xl font-medium leading-relaxed text-zinc-500 group-hover:text-zinc-200 transition-colors duration-500 max-w-sm drop-shadow-md text-balance">
+                      <p className="text-base md:text-xl font-medium leading-relaxed text-zinc-300 group-hover:text-zinc-300 transition-colors duration-500 max-w-sm drop-shadow-md text-balance">
                         {t(`cards.${card.id}.desc`)}
                       </p>
                     </div>
@@ -153,11 +153,11 @@ export const WhyUsSection = () => {
         </div>
 
         <div className="mt-4 flex md:hidden items-center justify-center gap-2 opacity-50">
-          <HiArrowLeft className="w-4 h-4 text-zinc-500 animate-pulse" />
-          <span className="text-xs font-bold uppercase tracking-widest text-zinc-500">
+          <HiArrowLeft className="w-4 h-4 text-zinc-300 animate-pulse" />
+          <span className="text-xs font-bold uppercase tracking-widest text-zinc-300">
             {t("dragText")}
           </span>
-          <HiArrowRight className="w-4 h-4 text-zinc-500 animate-pulse" />
+          <HiArrowRight className="w-4 h-4 text-zinc-300 animate-pulse" />
         </div>
       </div>
     </section>

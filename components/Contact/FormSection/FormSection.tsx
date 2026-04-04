@@ -43,7 +43,7 @@ export const FormSection = memo(() => {
                       className="w-full"
                     />
                     <div className="w-full flex justify-end">
-                       <p className={`mt-10 text-zinc-500 font-bold ${isRtl ? 'text-right' : 'italic text-left'} text-lg leading-relaxed opacity-70 max-w-sm`}>
+                       <p className={`mt-10 text-zinc-300 font-bold ${isRtl ? 'text-right' : 'italic text-left'} text-lg leading-relaxed opacity-70 max-w-sm`}>
                           {t("support")}
                        </p>
                     </div>
@@ -76,7 +76,7 @@ export const FormSection = memo(() => {
                        label={t("fields.details")}
                        placeholder={t("fields.details_ph")}
                        variant="minimal"
-                       className="min-h-[120px] text-zinc-200 text-base mt-2"
+                       className="min-h-[120px] text-zinc-300 text-base mt-2"
                     />
 
                     <div className={`flex ${isRtl ? 'justify-start' : 'justify-end'} pt-8`}>

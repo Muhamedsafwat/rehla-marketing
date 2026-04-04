@@ -48,7 +48,7 @@ export const PositioningSection = () => {
 
               <div className="my-6 h-px w-12 bg-primary/40 transition-all duration-700 group-hover:w-20" />
 
-              <p className="text-base font-medium leading-relaxed text-zinc-500 transition-colors duration-700 group-hover:text-zinc-300">
+              <p className="text-base font-medium leading-relaxed text-zinc-300 transition-colors duration-700 group-hover:text-zinc-300">
                 {t(`segments.${seg.id}.body`)}
               </p>
             </GlowCard>
@@ -72,7 +72,7 @@ export const PositioningSection = () => {
                 <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white">
                   {t(`stack.${i}.title`)}
                 </div>
-                <div className="mt-1 text-[11px] font-medium text-zinc-500 uppercase tracking-widest">
+                <div className="mt-1 text-[11px] font-medium text-zinc-300 uppercase tracking-widest">
                    {t(`stack.${i}.desc`)}
                 </div>
               </div>

@@ -69,7 +69,7 @@ export const WhoWeAreSection = memo(() => {
                        <h4 className="text-2xl md:text-3xl font-black italic text-zinc-100 leading-snug">
                           {t("missionLine1")}
                        </h4>
-                       <p className="text-lg md:text-xl text-zinc-500 font-bold italic leading-relaxed opacity-80">
+                       <p className="text-lg md:text-xl text-zinc-300 font-bold italic leading-relaxed opacity-80">
                           {t("missionLine2")}
                        </p>
                     </div>

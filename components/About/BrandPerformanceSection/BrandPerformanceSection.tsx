@@ -35,7 +35,7 @@ export const BrandPerformanceSection = () => {
                  transition={{ delay: 0.2 }}
                  className="space-y-4"
               >
-                 <p className="text-lg md:text-xl text-zinc-500 font-bold italic leading-relaxed">
+                 <p className="text-lg md:text-xl text-zinc-300 font-bold italic leading-relaxed">
                     {t("body2").split('\n')[0]}
                  </p>
                  

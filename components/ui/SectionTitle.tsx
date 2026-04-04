@@ -66,7 +66,7 @@ const SectionTitleImpl = ({ title, subtitle, className, align = "center", badge 
           <span className={cn("h-1.5 w-1.5 rounded-full bg-primary", !reduceMotion && "animate-pulse")} />
           <div className="h-px w-10 bg-white/10" />
           {badge && (
-            <span className="text-[9px] font-black uppercase tracking-[0.45em] text-zinc-500 whitespace-nowrap">
+            <span className="text-[9px] font-black uppercase tracking-[0.45em] text-zinc-300 whitespace-nowrap">
               {badge}
             </span>
           )}
@@ -100,7 +100,7 @@ const SectionTitleImpl = ({ title, subtitle, className, align = "center", badge 
             "max-w-3xl text-balance transition-all duration-700",
             locale === "ar"
               ? "text-base md:text-lg font-bold text-zinc-400 leading-relaxed"
-              : "text-sm md:text-base text-zinc-500 font-medium tracking-tight"
+              : "text-sm md:text-base text-zinc-300 font-medium tracking-tight"
           )}
         >
           {subtitle}

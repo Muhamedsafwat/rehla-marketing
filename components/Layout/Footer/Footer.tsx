@@ -34,7 +34,7 @@ export const Footer = () => {
           "w-7 h-7 rounded-md border flex items-center justify-center transition-colors shrink-0",
           special 
             ? "bg-primary/20 border-primary/50 text-white group-hover:bg-primary group-hover:shadow-[0_0_15px_rgba(204,10,10,0.6)]" 
-            : "bg-[#050505] border-white/10 text-zinc-500 group-hover:text-primary"
+            : "bg-[#050505] border-white/10 text-zinc-300 group-hover:text-primary"
         )}>
            <Icon className="w-4 h-4" />
         </div>
@@ -103,7 +103,7 @@ export const Footer = () => {
               <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mt-8 md:mt-12 flex-wrap">
                 {/* Email Container */}
                 <a href={contactData.rawEmail} className="group flex items-center gap-3 px-5 py-3 rounded-xl bg-[#080808] border border-white/5 hover:border-primary/50 transition-colors w-max">
-                   <div className="w-8 h-8 rounded-full bg-white/[0.03] flex items-center justify-center text-zinc-500 group-hover:text-primary transition-colors shrink-0">
+                   <div className="w-8 h-8 rounded-full bg-white/[0.03] flex items-center justify-center text-zinc-300 group-hover:text-primary transition-colors shrink-0">
                       <HiOutlineEnvelope className="w-4 h-4" />
                    </div>
                    <span className="text-xs md:text-sm font-semibold text-white tracking-wide">{contactData.email}</span>
@@ -111,7 +111,7 @@ export const Footer = () => {
 
                 {/* Phone Container */}
                 <a href={contactData.rawPhone} dir="ltr" className="group flex items-center gap-3 px-5 py-3 rounded-xl bg-[#080808] border border-white/5 hover:border-primary/50 transition-colors w-max">
-                   <div className="w-8 h-8 rounded-full bg-white/[0.03] flex items-center justify-center text-zinc-500 group-hover:text-primary transition-colors shrink-0">
+                   <div className="w-8 h-8 rounded-full bg-white/[0.03] flex items-center justify-center text-zinc-300 group-hover:text-primary transition-colors shrink-0">
                       <HiOutlinePhone className="w-4 h-4" />
                    </div>
                    <span className="text-xs md:text-sm font-semibold text-zinc-300 group-hover:text-white tracking-wide">{contactData.phone}</span>
@@ -127,7 +127,7 @@ export const Footer = () => {
               <div className="flex flex-col flex-1 p-6 md:p-8 rounded-[1.5rem] bg-white/[0.015] border border-white/5">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-1.5 h-1.5 rounded-sm bg-primary/70 animate-pulse" />
-                  <h4 className="text-[10px] font-black uppercase text-zinc-500 tracking-widest">
+                  <h4 className="text-[10px] font-black uppercase text-zinc-300 tracking-widest">
                     {isRtl ? "صفحات النظام" : "SYSTEM PAGES"}
                   </h4>
                 </div>
@@ -144,7 +144,7 @@ export const Footer = () => {
               <div className="flex flex-col p-6 md:p-8 rounded-[1.5rem] bg-white/[0.015] border border-white/5">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-1.5 h-1.5 rounded-sm bg-primary/70 animate-pulse" />
-                  <h4 className="text-[10px] font-black uppercase text-zinc-500 tracking-widest">
+                  <h4 className="text-[10px] font-black uppercase text-zinc-300 tracking-widest">
                     {isRtl ? "الشبكات الموثقة" : "VERIFIED NETWORKS"}
                   </h4>
                 </div>
@@ -160,7 +160,7 @@ export const Footer = () => {
                         rel="noopener noreferrer"
                         className="group flex flex-1 items-center justify-center p-4 rounded-xl bg-[#080808] border border-white/5 hover:border-primary/50 hover:bg-primary/5 hover:shadow-[0_0_20px_rgba(204,10,10,0.1)] transition-all duration-300 min-w-[70px] shrink-0"
                       >
-                        <SocialIcon className="w-5 h-5 text-zinc-500 group-hover:text-primary transition-colors duration-300 group-hover:scale-110" />
+                        <SocialIcon className="w-5 h-5 text-zinc-300 group-hover:text-primary transition-colors duration-300 group-hover:scale-110" />
                       </a>
                     );
                   })}
@@ -172,7 +172,7 @@ export const Footer = () => {
           </div>
 
           {/* Bottom Row Credits Container */}
-          <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4 w-full px-6 py-5 rounded-2xl bg-white/[0.01] border border-white/5 text-[10px] md:text-xs font-bold tracking-widest uppercase text-zinc-500">
+          <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4 w-full px-6 py-5 rounded-2xl bg-white/[0.01] border border-white/5 text-[10px] md:text-xs font-bold tracking-widest uppercase text-zinc-300">
             <p>&copy; {currentYear} REHLA MARKETING</p>
             
             <p className="flex items-center gap-3">

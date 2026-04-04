@@ -42,7 +42,7 @@ export function InsightsSection() {
           >
             <div className="flex items-center justify-between gap-6">
               <div>
-                <div className="text-[10px] font-black uppercase tracking-[0.6em] text-zinc-500">
+                <div className="text-[10px] font-black uppercase tracking-[0.6em] text-zinc-300">
                   {t("panelKicker")}
                 </div>
                 <div className="mt-3 text-2xl font-black tracking-tight text-white md:text-3xl">
@@ -53,13 +53,13 @@ export function InsightsSection() {
               <div className="hidden items-center gap-3 md:flex">
                 <div className="flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-4 py-2">
                   <span className="h-2 w-2 rounded-full bg-primary" />
-                  <span className="text-[10px] font-black uppercase tracking-[0.35em] text-zinc-500">
+                  <span className="text-[10px] font-black uppercase tracking-[0.35em] text-zinc-300">
                     {t("legendSignal")}
                   </span>
                 </div>
                 <div className="flex items-center gap-2 rounded-full border border-white/10 bg-black/20 px-4 py-2">
                   <span className="h-2 w-2 rounded-full bg-white/40" />
-                  <span className="text-[10px] font-black uppercase tracking-[0.35em] text-zinc-500">
+                  <span className="text-[10px] font-black uppercase tracking-[0.35em] text-zinc-300">
                     {t("legendPerformance")}
                   </span>
                 </div>
@@ -109,7 +109,7 @@ export function InsightsSection() {
                     <div className="text-xs font-black uppercase tracking-[0.35em] text-white/80">
                       {card.title}
                     </div>
-                    <div className="mt-3 text-sm font-medium leading-relaxed text-zinc-500">
+                    <div className="mt-3 text-sm font-medium leading-relaxed text-zinc-300">
                       {card.body}
                     </div>
                   </div>

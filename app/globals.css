@@ -84,6 +84,10 @@
   --color-accent-foreground: var(--color-accent-foreground);
   --color-muted: var(--color-muted);
   --color-muted-foreground: var(--color-muted-foreground);
+
+  /* Tailwind `font-sans` / `font-arabic` (next/font variables on <html>) */
+  --font-sans: var(--font-plus-jakarta-sans), "Inter", ui-sans-serif, system-ui;
+  --font-arabic: var(--font-almarai), "Inter", ui-sans-serif, system-ui;
 }
 
 body {
@@ -92,7 +96,7 @@ body {
   min-height: 100vh;
   background-color: #0d0d0f; 
   color: var(--foreground);
-  font-family: var(--font-sans), sans-serif;
+  /* font-family: var(--font-sans), sans-serif; */
   overflow-x: hidden;
 }
 

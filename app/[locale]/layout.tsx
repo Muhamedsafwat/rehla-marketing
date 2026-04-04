@@ -18,7 +18,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 const almarai = Almarai({
   variable: "--font-almarai",
   weight: ["300", "400", "700", "800"],
-  subsets: ["arabic"],
+  subsets: ["arabic", "latin"],
   display: "swap",
 });
 
@@ -90,6 +90,7 @@ export default async function RootLayout({
   const { locale } = await params;
   const messages = await getMessages();
   const direction = locale === "ar" ? "rtl" : "ltr";
+  const bodyFontClass = locale === "ar" ? "font-arabic" : "font-sans";
 
   return (
     <html
@@ -98,7 +99,7 @@ export default async function RootLayout({
       className={`${plusJakartaSans.variable} ${almarai.variable} h-full antialiased`}
     >
       <body
-        className="min-h-full flex flex-col font-sans"
+        className={`min-h-full flex flex-col ${bodyFontClass}`}
         style={{ backgroundColor: "#0d0d0f" }}
       >
         <NextIntlClientProvider messages={messages}>

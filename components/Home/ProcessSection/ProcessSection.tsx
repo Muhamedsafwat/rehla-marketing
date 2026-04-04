@@ -67,7 +67,7 @@ export const ProcessSection = () => {
                     viewport={{ once: true }}
                     className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white/10 bg-[#0c0c0c] group-hover:border-primary/60 group-hover:shadow-[0_0_25px_rgba(204,10,10,0.3)] transition-all duration-700"
                   >
-                    <span className="text-[11px] font-black text-zinc-500 group-hover:text-white transition-colors duration-500">
+                    <span className="text-[11px] font-black text-zinc-300 group-hover:text-white transition-colors duration-500">
                       {step.num}
                     </span>
                   </motion.div>
@@ -84,11 +84,11 @@ export const ProcessSection = () => {
                           {t(`${step.id}.title`)}
                         </h3>
                         <div className="h-0.5 w-10 bg-white/10 group-hover:w-20 group-hover:bg-primary ms-auto transition-all duration-700 mb-4" />
-                        <p className="text-sm md:text-base font-medium leading-relaxed text-zinc-500 group-hover:text-zinc-300 transition-colors duration-500">
+                        <p className="text-sm md:text-base font-medium leading-relaxed text-zinc-300 group-hover:text-zinc-300 transition-colors duration-500">
                           {t(`${step.id}.desc`)}
                         </p>
                         <div className="mt-4 opacity-0 group-hover:opacity-60 transition-opacity duration-700">
-                          <span className="text-[9px] font-black uppercase tracking-[0.5em] text-zinc-500">
+                          <span className="text-[9px] font-black uppercase tracking-[0.5em] text-zinc-300">
                             {t("metaLabel")} / {step.num}
                           </span>
                         </div>
@@ -105,11 +105,11 @@ export const ProcessSection = () => {
                           {t(`${step.id}.title`)}
                         </h3>
                         <div className="h-0.5 w-10 bg-white/10 group-hover:w-20 group-hover:bg-primary transition-all duration-700 mb-4" />
-                        <p className="text-sm md:text-base font-medium leading-relaxed text-zinc-500 group-hover:text-zinc-300 transition-colors duration-500">
+                        <p className="text-sm md:text-base font-medium leading-relaxed text-zinc-300 group-hover:text-zinc-300 transition-colors duration-500">
                           {t(`${step.id}.desc`)}
                         </p>
                         <div className="mt-4 opacity-0 group-hover:opacity-60 transition-opacity duration-700">
-                          <span className="text-[9px] font-black uppercase tracking-[0.5em] text-zinc-500">
+                          <span className="text-[9px] font-black uppercase tracking-[0.5em] text-zinc-300">
                             {t("metaLabel")} / {step.num}
                           </span>
                         </div>

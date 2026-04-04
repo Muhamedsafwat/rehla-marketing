@@ -119,7 +119,7 @@ export const Preloader = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.6 }}
-                className="text-[9px] text-zinc-500 uppercase tracking-widest font-bold mt-2"
+                className="text-[9px] text-zinc-300 uppercase tracking-widest font-bold mt-2"
               >
                 System Booting...
               </motion.span>

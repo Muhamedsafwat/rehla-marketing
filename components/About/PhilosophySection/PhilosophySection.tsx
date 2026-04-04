@@ -23,7 +23,7 @@ const PhilosophyPoint = memo(({ index, title, isRtl }: { index: number, title: s
         />
         {/* Floating Number */}
         <div className="absolute top-0 flex items-center justify-center p-2 bg-zinc-950 border border-white/5 rounded-full -translate-y-1/2">
-           <span className="text-[10px] font-black font-mono text-zinc-500">0{index + 1}</span>
+           <span className="text-[10px] font-black font-mono text-zinc-300">0{index + 1}</span>
         </div>
         {/* Central Content */}
         <div className="p-10 text-center relative z-10 transition-transform duration-700 group-hover:scale-110">
@@ -102,7 +102,7 @@ export const PhilosophySection = memo(() => {
              transition={{ delay: 0.6 }}
              className="mt-12 border-t border-white/5 pt-8 text-center max-w-2xl"
            >
-              <p className="text-lg md:text-xl text-zinc-500 font-bold italic opacity-60">
+              <p className="text-lg md:text-xl text-zinc-300 font-bold italic opacity-60">
                  {t("footer")}
               </p>
               <div className="mt-8 flex justify-center gap-4 opacity-5">

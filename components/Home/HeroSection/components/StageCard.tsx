@@ -124,7 +124,7 @@ export const StageCard = ({ isRtl }: StageCardProps) => {
                   <span className="shrink-0 rounded-lg border border-primary/25 bg-primary/10 p-1.5">
                     {o.icon}
                   </span>
-                  <span className="text-[7px] font-black uppercase tracking-[0.2em] text-zinc-500 leading-tight">
+                  <span className="text-[7px] font-black uppercase tracking-[0.2em] text-zinc-300 leading-tight">
                     {t(`stage.orbit.${o.key}`)}
                   </span>
                 </div>

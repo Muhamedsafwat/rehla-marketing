@@ -55,7 +55,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       primary: "bg-primary text-white shadow-[0_20px_50px_rgba(146,11,11,0.25)] hover:shadow-[0_25px_70px_rgba(146,11,11,0.45)]",
       secondary: "bg-white text-black hover:bg-zinc-100 shadow-xl",
       outline: "border border-white/20 text-white hover:bg-white/5 backdrop-blur-md",
-      ghost: "text-zinc-500 hover:text-white hover:bg-white/5",
+      ghost: "text-zinc-300 hover:text-white hover:bg-white/5",
       glass: "bg-white/[0.03] backdrop-blur-3xl border border-white/[0.1] text-white hover:bg-white/[0.08] shadow-[0_20px_60px_rgba(0,0,0,0.5)]",
     };
 

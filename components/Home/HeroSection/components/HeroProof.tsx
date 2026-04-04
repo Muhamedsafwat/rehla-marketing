@@ -42,7 +42,7 @@ export const HeroProof = ({ isRtl }: HeroProofProps) => {
           <span className="rounded-full border border-primary/20 bg-primary/10 p-1.5">
             {p.icon}
           </span>
-          <span className="text-[8px] font-black uppercase tracking-[0.3em] text-zinc-500">
+          <span className="text-[8px] font-black uppercase tracking-[0.3em] text-zinc-300">
             {t(`proof.${p.key}`)}
           </span>
         </motion.div>

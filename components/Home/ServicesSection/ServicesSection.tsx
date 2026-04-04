@@ -112,7 +112,7 @@ export const ServicesSection = () => {
 
                   <h3 className={cn(
                     "text-3xl font-black uppercase tracking-tight transition-all duration-700 leading-tight",
-                    isHovered ? "text-white translate-x-2" : "text-zinc-500"
+                    isHovered ? "text-white translate-x-2" : "text-zinc-300"
                   )}>
                     {t(`${service.id}.title`)}
                   </h3>
@@ -132,7 +132,7 @@ export const ServicesSection = () => {
 
                 <div className="relative z-10 mt-auto flex items-end justify-between border-t border-white/5 pt-8 opacity-40 group-hover:opacity-100 transition-opacity">
                   <div className="space-y-1">
-                    <div className="text-[8px] font-black uppercase tracking-[0.4em] text-zinc-500">
+                    <div className="text-[8px] font-black uppercase tracking-[0.4em] text-zinc-300">
                       {t("layerLabel")}
                     </div>
                     <div className="text-[10px] font-black uppercase text-zinc-300">
