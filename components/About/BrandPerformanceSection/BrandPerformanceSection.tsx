@@ -68,4 +68,3 @@ export const BrandPerformanceSection = () => {
     </section>
   );
 };
-BrandPerformanceSection.displayName = "BrandPerformanceSection";

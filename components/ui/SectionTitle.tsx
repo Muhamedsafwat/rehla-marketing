@@ -110,7 +110,5 @@ const SectionTitleImpl = ({ title, subtitle, className, align = "center", badge 
   );
 };
 
-SectionTitleImpl.displayName = "SectionTitle";
-
 export const SectionTitle = memo(SectionTitleImpl);
 

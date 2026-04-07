@@ -121,7 +121,6 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
   }
 );
 
-Input.displayName = "Input";
 
 const MemoizedInput = memo(Input);
 export { MemoizedInput as Input };

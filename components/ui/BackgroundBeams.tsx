@@ -23,4 +23,3 @@ export const BackgroundBeams = memo(() => {
   );
 });
 
-BackgroundBeams.displayName = "BackgroundBeams";

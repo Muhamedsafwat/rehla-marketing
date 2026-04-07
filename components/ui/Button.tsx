@@ -155,7 +155,6 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   }
 );
 
-Button.displayName = "Button";
 
 const MemoizedButton = memo(Button);
 export { MemoizedButton as Button };

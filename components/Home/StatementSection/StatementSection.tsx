@@ -104,7 +104,7 @@ export const StatementSection = () => {
 
                 <h3 className={cn(
                   "flex-1 text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter leading-snug transition-all duration-500 ease-out",
-                  "text-zinc-300 group-hover:text-white md:group-hover:italic",
+                  "text-zinc-300 group-hover:text-white",
                   isRtl ? "text-right md:group-hover:-translate-x-6" : "md:group-hover:translate-x-6"
                 )}>
                   {principle}

@@ -151,3 +151,12 @@ button {
   scrollbar-width: thin;
   scrollbar-color: #920b0b #0d0d0f;
 }
+
+@keyframes spin {
+  from { transform: rotate(45deg); }
+  to { transform: rotate(405deg); }
+}
+
+.animate-spin-slow {
+  animation: spin 15s linear infinite;
+}

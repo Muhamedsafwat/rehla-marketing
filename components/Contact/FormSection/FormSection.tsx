@@ -102,4 +102,3 @@ export const FormSection = memo(() => {
   );
 });
 
-FormSection.displayName = "FormSection";

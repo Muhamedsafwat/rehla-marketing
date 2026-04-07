@@ -108,4 +108,3 @@ export const ParticleField = memo(() => {
   );
 });
 
-ParticleField.displayName = "ParticleField";

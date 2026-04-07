@@ -62,4 +62,3 @@ export const HeroSection = () => {
     </section>
   );
 };
-HeroSection.displayName = "HeroSection";

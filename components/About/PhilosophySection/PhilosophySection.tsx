@@ -36,7 +36,6 @@ const PhilosophyPoint = memo(({ index, title, isRtl }: { index: number, title: s
      </div>
   </motion.div>
 ));
-PhilosophyPoint.displayName = "PhilosophyPoint";
 
 export const PhilosophySection = memo(() => {
   const t       = useTranslations("AboutPage.Philosophy");
@@ -119,4 +118,3 @@ export const PhilosophySection = memo(() => {
   );
 });
 
-PhilosophySection.displayName = "PhilosophySection";

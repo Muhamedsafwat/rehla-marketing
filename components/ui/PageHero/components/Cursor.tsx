@@ -24,4 +24,3 @@ export const Cursor = memo(({ done }: CursorProps) => {
   );
 });
 
-Cursor.displayName = "Cursor";

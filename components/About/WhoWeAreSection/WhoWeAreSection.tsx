@@ -92,4 +92,3 @@ export const WhoWeAreSection = memo(() => {
   );
 });
 
-WhoWeAreSection.displayName = "WhoWeAreSection";

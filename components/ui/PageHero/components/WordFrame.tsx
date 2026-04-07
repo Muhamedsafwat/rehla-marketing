@@ -131,5 +131,3 @@ export const WordFrame = memo(({ word, index, isRtl }: WordFrameProps) => {
     </motion.span>
   );
 });
-
-WordFrame.displayName = "WordFrame";

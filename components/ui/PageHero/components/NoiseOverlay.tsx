@@ -15,4 +15,3 @@ export const NoiseOverlay = memo(() => {
   );
 });
 
-NoiseOverlay.displayName = "NoiseOverlay";

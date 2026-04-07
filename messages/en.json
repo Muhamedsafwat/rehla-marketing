@@ -52,9 +52,18 @@
         }
       },
       "stack": [
-        { "title": "Strategic Narrative", "desc": "One story, told everywhere." },
-        { "title": "Engineered Systems", "desc": "Brand + Ads in one machine." },
-        { "title": "Zero Vanity", "desc": "Focus on ROI, not mentions." }
+        {
+          "title": "Strategic Narrative",
+          "desc": "One story, told everywhere."
+        },
+        {
+          "title": "Engineered Systems",
+          "desc": "Brand + Ads in one machine."
+        },
+        {
+          "title": "Zero Vanity",
+          "desc": "Focus on ROI, not mentions."
+        }
       ]
     },
     "Services": {
@@ -262,6 +271,72 @@
       "description": "Clarity is the first step toward sustainable success. We're here to turn your vision into a high-performance system.",
       "primary": "Schedule a Session",
       "secondary": "WhatsApp Chat"
+    }
+  },
+  "ServicesPage": {
+    "Metadata": {
+      "title": "Our Services | Strategic Brand & Performance Systems",
+      "description": "At Rehla Marketing, every service is designed to serve a clear purpose — building strong brands and driving measurable performance.",
+      "keywords": "marketing strategy, brand identity, performance marketing, content systems, social media management, growth automation"
+    },
+    "Hero": {
+      "headline": "What We Do Is Simple.\nWe Build. We Optimize. We Scale.",
+      "subheadline": "At Rehla Marketing, every service is designed to serve a clear purpose — building strong brands and driving measurable performance."
+    },
+    "Intro": {
+      "part1": "Our work isn’t built on isolated services.",
+      "part2": "It’s built on a connected system ",
+      "part3": "where brand, content, and performance work together to deliver real results."
+    },
+    "Branding": {
+      "headline": "Branding With Intention.",
+      "body": "Your brand is your most powerful strategic asset.\nWe build identities that are perceived, remembered, and chosen.",
+      "points": [
+        "Brand positioning",
+        "Visual identity",
+        "Tone of voice",
+        "Messaging clarity"
+      ]
+    },
+    "Content": {
+      "headline": "Content That Carries Meaning.",
+      "body": "Content isn’t about frequency — it’s about direction and lasting impact.",
+      "points": [
+        "Content strategy",
+        "Social media management",
+        "Visual consistency",
+        "Narrative building"
+      ]
+    },
+    "Performance": {
+      "headline": "Performance, Engineered — Not Guessed.",
+      "body": "Launching ads is easy, but consistent results require a structured system for testing and optimization.",
+      "points": [
+        "Paid media strategy",
+        "Funnel design",
+        "Tracking & analytics",
+        "Continuous optimization"
+      ]
+    },
+    "Strategy": {
+      "headline": "Strategy Is Where Everything Starts.",
+      "body": "Without strategy, execution is just noise. We align everything to drive your goals.",
+      "points": [
+        "Market understanding",
+        "Audience definition",
+        "Communication direction",
+        "Marketing roadmap"
+      ]
+    },
+    "Closing": {
+      "body": "No isolated efforts.\nNo random execution.\nJust a clear, structured approach — built to work."
+    },
+    "CTA": {
+      "headline": "Let’s Build the Right System for Your Brand.",
+      "badge": "Ready to Grow?",
+      "description": "If you’re looking for quick wins, we’re probably not the right fit.\nBut if you’re looking to build something structured, clear, and built to last — we’re ready.",
+      "primaryAction": "Schedule a Session",
+      "secondaryAction": "WhatsApp Chat"
     }
   },
   "LanguageSwitcher": {

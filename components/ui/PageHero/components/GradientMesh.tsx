@@ -42,4 +42,3 @@ export const GradientMesh = memo(() => {
   );
 });
 
-GradientMesh.displayName = "GradientMesh";

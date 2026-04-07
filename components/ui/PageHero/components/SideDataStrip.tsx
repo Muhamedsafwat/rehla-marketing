@@ -37,7 +37,6 @@ export function SideDataStrip({ isRtl, delay }: SideDataStripProps) {
   );
 }
 
-SideDataStrip.displayName = "SideDataStrip";
 
 
 export const MemoSideDataStrip = React.memo(SideDataStrip);

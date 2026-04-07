@@ -33,5 +33,4 @@ export const CornerBracket = memo(({ position }: CornerBracketProps) => {
   );
 });
 
-CornerBracket.displayName = "CornerBracket";
 

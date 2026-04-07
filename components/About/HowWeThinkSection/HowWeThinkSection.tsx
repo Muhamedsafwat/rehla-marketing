@@ -25,7 +25,6 @@ const ThinkingPhase = memo(({ index, text, isRtl }: { index: number, text: strin
      </div>
   </motion.div>
 ));
-ThinkingPhase.displayName = "ThinkingPhase";
 
 export const HowWeThinkSection = memo(() => {
   const t       = useTranslations("AboutPage.HowWeThink");
@@ -94,4 +93,3 @@ export const HowWeThinkSection = memo(() => {
   );
 });
 
-HowWeThinkSection.displayName = "HowWeThinkSection";

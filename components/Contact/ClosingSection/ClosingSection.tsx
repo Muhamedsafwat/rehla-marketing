@@ -28,4 +28,3 @@ export const ClosingSection = memo(() => {
   );
 });
 
-ClosingSection.displayName = "ClosingSection";

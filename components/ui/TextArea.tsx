@@ -105,7 +105,6 @@ const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(
   }
 );
 
-TextArea.displayName = "TextArea";
 
 const MemoizedTextArea = memo(TextArea);
 export { MemoizedTextArea as TextArea };
